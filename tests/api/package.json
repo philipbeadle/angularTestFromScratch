@@ -1,0 +1,16 @@
+{
+  "name": "api-testing",
+  "version": "0.0.1",
+  "description": "API testing using super-test",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-subset": "^1.2.0",
+    "chai-things": "^0.2.0",
+    "mocha": "^2.4.5",
+    "supertest": "^1.1.0",
+    "supertest-as-promised": "^2.0.2"
+  }
+}

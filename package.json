@@ -1,0 +1,11 @@
+{
+  "name": "angular-test-from-scratch",
+  "version": "0.0.1",
+  "description": "Angular app with a node express backend",
+  "scripts": {
+    "serve": "node server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

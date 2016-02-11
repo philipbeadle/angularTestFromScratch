@@ -83,16 +83,16 @@ npm test
 * Now add this code to the server/server.js file
 
 ```
-    var express = require('express');
-    var app = express();
-    
-    app.get('/retrieve', function (req, res) {
-      res.send('Hello World!');
-    });
-    
-    app.listen(3000, function () {
-      console.log('Example app listening on port 3000!');
-    });
+var express = require('express');
+var app = express();
+
+app.get('/retrieve', function (req, res) {
+  res.send('Hello World!');
+});
+
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!');
+});
 ```
 * Add the following script to make it easy to launch the server
 ```
